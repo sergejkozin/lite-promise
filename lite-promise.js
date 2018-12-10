@@ -1,4 +1,6 @@
 (function() {
+  if (window.Promise)
+    return;
 
   var STATUS = {
     pending: 'pending',
